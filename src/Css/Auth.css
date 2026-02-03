@@ -1,0 +1,119 @@
+/* Page center */
+.auth-container {
+  min-height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card */
+.auth-card {
+  background: white;
+  width: 360px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Headings */
+.auth-card h2 {
+  margin-bottom: 5px;
+}
+
+.auth-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 11px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+/* Main button */
+.auth-btn {
+  width: 100%;
+  padding: 11px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.auth-btn:hover {
+  background: #0b5ed7;
+}
+
+/* Links */
+.auth-link {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.auth-link.bottom {
+  margin-top: 18px;
+}
+
+/* OR line */
+.or-line {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #888;
+  font-size: 13px;
+}
+
+.or-line::before,
+.or-line::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.or-line::before {
+  margin-right: 10px;
+}
+
+.or-line::after {
+  margin-left: 10px;
+}
+
+/* Google button */
+.google-btn {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.google-btn img {
+  width: 18px;
+}
