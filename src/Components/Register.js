@@ -30,10 +30,11 @@ function Register() {
         </div>
 
         <button className="google-btn">
-          <img
-            src="https://developers.google.com/identity/images/g-logo.png"
-            alt="google"
-          />
+             <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png"
+          alt="Google"
+          className="google-icon"
+/>
           Continue with Google
         </button>
 

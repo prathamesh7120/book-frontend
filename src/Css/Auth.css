@@ -1,39 +1,48 @@
-/* Page center */
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Page Wrapper ===== */
 .auth-container {
   min-height: 100vh;
-  background: #f4f6f8;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+  padding: 20px;
 }
 
-/* Card */
+/* ===== Card ===== */
 .auth-card {
-  background: white;
-  width: 360px;
-  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 32px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* Headings */
+/* ===== Title ===== */
 .auth-card h2 {
-  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #222;
 }
 
 .auth-subtitle {
+  text-align: center;
   font-size: 14px;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
-/* Inputs */
+/* ===== Inputs ===== */
 .auth-card input {
   width: 100%;
-  padding: 11px;
-  margin-bottom: 12px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 14px;
@@ -41,79 +50,119 @@
 
 .auth-card input:focus {
   outline: none;
-  border-color: #0d6efd;
+  border-color: #2563eb;
 }
 
-/* Main button */
+/* ===== Main Button ===== */
 .auth-btn {
   width: 100%;
-  padding: 11px;
-  background: #0d6efd;
-  color: white;
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
   font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .auth-btn:hover {
-  background: #0b5ed7;
+  background: #1e4fd6;
 }
 
-/* Links */
+/* ===== Links ===== */
 .auth-link {
-  margin-top: 12px;
+  text-align: center;
   font-size: 14px;
+  margin-top: 14px;
 }
 
 .auth-link a {
-  color: #0d6efd;
+  color: #2563eb;
   text-decoration: none;
 }
 
-.auth-link.bottom {
-  margin-top: 18px;
+.auth-link a:hover {
+  text-decoration: underline;
 }
 
-/* OR line */
+/* ===== OR Divider ===== */
 .or-line {
   display: flex;
   align-items: center;
-  margin: 20px 0;
-  color: #888;
-  font-size: 13px;
+  margin: 22px 0;
 }
 
 .or-line::before,
 .or-line::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #ddd;
+  height: 1px;
+  background: #ddd;
 }
 
-.or-line::before {
-  margin-right: 10px;
+.or-line span {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #888;
+  font-weight: 500;
 }
 
-.or-line::after {
-  margin-left: 10px;
-}
-
-/* Google button */
+/* ===== Google Button ===== */
 .google-btn {
   width: 100%;
-  padding: 10px;
-  background: white;
-  border: 1px solid #ccc;
+  height: 44px;              /* fixed height */
+  background: #fff;
+  border: 1px solid #dcdcdc;
   border-radius: 6px;
-  cursor: pointer;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
 }
 
-.google-btn img {
-  width: 18px;
+.google-icon {
+  width: 18px;               /* exact size */
+  height: 18px;
+  object-fit: contain;       /* IMPORTANT */
+}
+
+
+.google-btn:hover {
+  background: #f9f9f9;
+}
+
+
+/* ===== OTP Inputs ===== */
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.otp-inputs input {
+  width: 52px;
+  height: 46px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ===== Error ===== */
+.error-text {
+  color: #d32f2f;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 24px 20px;
+  }
 }
