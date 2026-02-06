@@ -1,27 +1,67 @@
-.travel-books-container {
-  margin-top: 30px;
+.container {
+  padding: 20px;
   text-align: center;
 }
 
-.travel-books-grid {
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.book-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 
-.travel-book-card {
-  background: white;
-  padding: 20px;
+.book-card {
   width: 220px;
+  background: #fff;
+  padding: 15px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
 }
 
-.travel-book-card:hover {
+.book-card:hover {
   transform: translateY(-5px);
-  background: #ffaf4f;   
+}
+
+.book-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-price {
+  color: green;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Add to cart button */
+.cart-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
   color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cart-btn:hover {
+  background: #0056b3;
 }

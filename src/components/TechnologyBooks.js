@@ -1,5 +1,5 @@
 import React from "react";
-import javascriptImg from "../image/javascript.jpg";
+import javascriptImg from "../image/javascript.jpg"; 
 import reactImg from "../image/React.jpg";
 import pythonImg from "../image/Python.jpg";
 import "./TechnologyBooks.css";

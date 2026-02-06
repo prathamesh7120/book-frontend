@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
+
 
 function Navbar() {   // ← Function name MUST be Navbar
   return (
@@ -10,6 +12,7 @@ function Navbar() {   // ← Function name MUST be Navbar
         <li>Home</li>
         <li>Categories</li>
         <li>About</li>
+       
       </ul>
     </nav>
   );

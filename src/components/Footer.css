@@ -2,37 +2,31 @@
   background: skyblue;
   color: white;
   text-align: center;
-  padding: 35px 0;
+  padding: 20px 0;
   border-top: 3px solid #ff608b;
-height: 140px;
-margin-top: 150px;
-margin-bottom: 250px;
-
+  margin-top: 50px;
 }
 
 .footer p {
-  margin: 150px;
+  margin: 5px 0;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 150px;
-  margin-top: 190px;
-
 }
 
 .social-icons {
-  margin-top: 14px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
 }
 
 .social-icons a {
-  font-size: 26px;
+  font-size: 24px;
   color: #ffffff;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .social-icons a:hover {
   color: #ff608b;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
