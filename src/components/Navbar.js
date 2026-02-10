@@ -11,7 +11,9 @@ function Navbar() {   // ← Function name MUST be Navbar
       <ul className="nav-links">
         <li>Home</li>
         <li>Categories</li>
-        <li>About</li>
+       
+        <li><Link to="/about" className="nav-link">About</Link></li>
+
        
       </ul>
     </nav>

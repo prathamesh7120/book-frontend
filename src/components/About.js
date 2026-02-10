@@ -4,23 +4,20 @@ import "./About.css";
 function About() {
   return (
     <div className="about-container">
-      <h1>About BookVibe</h1>
+      <h2>About Bookvibe</h2>
 
       <p>
-        Welcome to <strong>BookVibe</strong> — your one-stop online bookstore
-        for Technology, Sports, Fashion, and Travel books. We provide a wide
-        collection of high-quality books at affordable prices to help you learn,
-        explore, and grow.
+        Bookvibe is a simple book shopping app where users can explore books from 
+        different categories like Technology, Sports, Travel, and Fashion.
       </p>
 
       <p>
-        At BookVibe, our mission is to make reading simple and enjoyable for
-        everyone. Whether you're a student, hobby reader, or professional, we
-        have the perfect book for you.
+        Our mission is to make book browsing easy and enjoyable with clean UI, 
+        attractive cards, and fast navigation.
       </p>
 
-      <p>
-        Thank you for choosing BookVibe!
+      <p className="credit">
+       
       </p>
     </div>
   );

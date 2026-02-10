@@ -1,18 +1,23 @@
 .about-container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
+  max-width: 800px;
+  margin: auto;
 }
 
-.about-container h1 {
+.about-container h2 {
   font-size: 32px;
   margin-bottom: 20px;
 }
 
 .about-container p {
   font-size: 18px;
-  color: #333;
   margin-bottom: 15px;
   line-height: 1.6;
+}
+
+.credit {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #ff4081;
 }
