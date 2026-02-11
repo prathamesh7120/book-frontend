@@ -2,22 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-
-function Navbar() {   // ← Function name MUST be Navbar
+function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Bookvibe</div>
+      <h2 className="logo">Bookvibe</h2>
 
       <ul className="nav-links">
-        <li>Home</li>
-        <li>Categories</li>
-       
-        <li><Link to="/about" className="nav-link">About</Link></li>
-
-       
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/categories">Categories</Link></li>
+        <li><Link to="/about">About</Link></li>
       </ul>
     </nav>
   );
 }
 
-export default Navbar;   // ← VERY IMPORTANT
+export default Navbar;

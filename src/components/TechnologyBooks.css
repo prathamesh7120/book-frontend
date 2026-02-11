@@ -1,7 +1,7 @@
 .tech-container {
   padding: 20px;
   text-align: center;
-    padding-bottom: 120px; /* Extra space so footer won't overlap */
+  padding-bottom: 120px; /* Extra space so footer won't overlap */
 }
 
 .section-title {
@@ -19,13 +19,13 @@
 
 /* Book Card */
 .book-card {
-  width: 250px;              /* bigger width */
+  width: 250px;
   background: #ffffff;
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
-  text-align: left;          /* more professional */
+  text-align: left;
 }
 
 .book-card:hover {
@@ -35,7 +35,7 @@
 /* Book Image */
 .book-img {
   width: 100%;
-  height: 300px;             /* perfect height like book shops */
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -46,12 +46,12 @@
   font-size: 18px;
   font-weight: 700;
   color: #222;
-  height: 45px;              /* fixed height so all titles align */
+  height: 45px;
 }
 
 /* Price */
 .book-price {
-  color: #e63946;            /* attractive red */
+  color: #e63946;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;

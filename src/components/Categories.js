@@ -1,56 +1,18 @@
-import React, { useState } from "react";
-
-import TechnologyBooks from "./TechnologyBooks";
-import SportsBooks from "./SportsBooks";
-import TravelBooks from "./TravelBooks";
-import FashionBooks from "./FashionBooks";
-
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Categories.css";
 
 function Categories() {
-  const [selectedCategory, setSelectedCategory] = useState("");
-
   return (
-    <div className="categories-container">
+    <div className="categories">
       <h2>Categories</h2>
 
-      <div className="categories-grid">
-
-        <div
-          className="category-card"
-          onClick={() => setSelectedCategory("technology")}
-        >
-          Technology
-        </div>
-
-        <div
-          className="category-card"
-          onClick={() => setSelectedCategory("sports")}
-        >
-          Sports
-        </div>
-
-        <div
-          className="category-card"
-          onClick={() => setSelectedCategory("travel")}
-        >
-          Travel
-        </div>
-
-        <div
-          className="category-card"
-          onClick={() => setSelectedCategory("fashion")}
-        >
-          Fashion
-        </div>
-
+      <div className="cat-container">
+        <Link to="/categories/technology" className="cat-btn">Technology</Link>
+        <Link to="/categories/sports" className="cat-btn">Sports</Link>
+        <Link to="/categories/travel" className="cat-btn">Travel</Link>
+        <Link to="/categories/fashion" className="cat-btn">Fashion</Link>
       </div>
-
-      {/* Render correct books section */}
-      {selectedCategory === "technology" && <TechnologyBooks />}
-      {selectedCategory === "sports" && <SportsBooks />}
-      {selectedCategory === "travel" && <TravelBooks />}
-      {selectedCategory === "fashion" && <FashionBooks />}
     </div>
   );
 }
