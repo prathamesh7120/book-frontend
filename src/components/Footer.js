@@ -11,10 +11,10 @@ const Footer = () => {
 
        
         <div className="footer-icons">
-          <a href="#" className="icon"><FaFacebookF /></a>
-          <a href="#" className="icon"><FaInstagram /></a>
-          <a href="#" className="icon"><FaTwitter /></a>
-          <a href="#" className="icon"><FaGithub /></a>
+          <a href="https://facebook.com" className="icon"><FaFacebookF /></a>
+          <a href="https://instagram.com" className="icon"><FaInstagram /></a>
+          <a href="https://twitter.com" className="icon"><FaTwitter /></a>
+          <a href="https://github.com " className="icon"><FaGithub /></a>
         </div>
 
         <p className="footer-copy">
