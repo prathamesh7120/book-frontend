@@ -10,13 +10,13 @@ import About from "./components/About";
 import Cart from "./components/Cart";
 
 // Books
-// import TechnologyBooks from "./components/TechnologyBooks";
-// import SportsBooks from "./components/SportsBooks";
-// import TravelBooks from "./components/TravelBooks";
-// import FashionBooks from "./components/FashionBooks";
-// import RomanceBooks from "./components/RomanceBooks";
-// import KidsBooks from "./components/KidsBooks";
-// import HorrorBooks from "./components/HorrorBooks";
+import TechnologyBooks from "./components/TechnologyBooks";
+import SportsBooks from "./components/SportsBooks";
+import TravelBooks from "./components/TravelBooks";
+import FashionBooks from "./components/FashionBooks";
+import RomanceBooks from "./components/RomanceBooks";
+import KidsBooks from "./components/KidsBooks";
+import HorrorBooks from "./components/HorrorBooks";
 
 // ✅ Context
 import { CartProvider } from "./context/CartContext";
