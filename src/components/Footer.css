@@ -1,32 +1,59 @@
+/* MAIN FOOTER */
 .footer {
-  background: skyblue;
-  color: white;
+  margin-top: auto;
+  background: linear-gradient(135deg, #6c5ce7, #74b9ff); /* modern gradient */
+  padding: 40px 0;
+  color: #fff;
   text-align: center;
-  padding: 20px 0;
-  border-top: 3px solid #ff608b;
-  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -6px 25px rgba(0, 0, 0, 0.15);
 }
 
-.footer p {
-  margin: 5px 0;
-  font-size: 16px;
-  font-weight: 500;
+/* CONTAINER */
+.footer-container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
 }
 
-.social-icons {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+/* LOGO TEXT */
+.footer-logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
-.social-icons a {
-  font-size: 24px;
-  color: #ffffff;
+/* FOOTER SUBTEXT */
+.footer-text {
+  margin-bottom: 20px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* ICONS WRAPPER */
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+/* ICONS */
+.footer-icons .icon {
+  font-size: 26px;
+  margin: 0 12px;
+  color: white;
   transition: 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #ff608b;
-  transform: scale(1.2);
+/* ICON HOVER EFFECT */
+.footer-icons .icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #000;
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-top: 10px;
 }

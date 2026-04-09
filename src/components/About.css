@@ -1,23 +1,69 @@
 .about-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.about-card {
+  max-width: 900px;
+  background: #ffffff;
   padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
   text-align: center;
-  max-width: 800px;
-  margin: auto;
-}
-
-.about-container h2 {
   font-size: 32px;
+  color: #2c3e50;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
-.about-container p {
+.about-desc {
+  text-align: center;
   font-size: 18px;
-  margin-bottom: 15px;
-  line-height: 1.6;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 35px;
 }
 
-.credit {
+.about-features {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  background: #f8f9fa;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+  border: 1px solid #eee;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.icon {
+  font-size: 45px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
   font-size: 20px;
-  margin-top: 25px;
-  color: #ff4081;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature-box p {
+  font-size: 15px;
+  color: #666;
 }

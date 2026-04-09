@@ -12,6 +12,11 @@ function Categories() {
         <Link to="/categories/sports" className="cat-btn">Sports</Link>
         <Link to="/categories/travel" className="cat-btn">Travel</Link>
         <Link to="/categories/fashion" className="cat-btn">Fashion</Link>
+
+        {/* ✅ Add new categories */}
+        <Link to="/romance" className="cat-btn">Romance</Link>
+        <Link to="/kids" className="cat-btn">Kids</Link>
+        <Link to="/horror" className="cat-btn">Horror</Link>
       </div>
     </div>
   );

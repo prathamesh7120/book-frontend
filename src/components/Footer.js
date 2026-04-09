@@ -1,20 +1,29 @@
 import React from "react";
+import { FaFacebookF, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 import "./Footer.css";
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2026 Bookvibe.All rights reserved</p>
+      <div className="footer-container">
 
-      <div className="social-icons">
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <h2 className="footer-logo">BookVibe</h2>
+
+       
+        <div className="footer-icons">
+          <a href="#" className="icon"><FaFacebookF /></a>
+          <a href="#" className="icon"><FaInstagram /></a>
+          <a href="#" className="icon"><FaTwitter /></a>
+          <a href="#" className="icon"><FaGithub /></a>
+        </div>
+
+        <p className="footer-copy">
+          © 2026 BookVibe. All Rights Reserved.
+        </p>
+
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
